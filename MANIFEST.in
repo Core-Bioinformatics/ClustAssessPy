@@ -1,0 +1,2 @@
+include cpp_functions/snn_cpp_functions.cpp
+recursive-include cpp_functions/include *

@@ -1,0 +1,13 @@
+numpy
+pandas
+scanpy
+umap-learn
+seaborn
+matplotlib
+scipy
+networkx
+plotnine
+pynndescent
+leidenalg
+louvain
+igraph
