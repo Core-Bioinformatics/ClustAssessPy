@@ -3,3 +3,6 @@
 /build
 /ClustAssessPy.egg-info
 /Examples/data
+/virtual_env_CA_py
+/Examples/cuomo_expr_matrix_with_MT_RP.csv
+/Examples/metadata.csv
