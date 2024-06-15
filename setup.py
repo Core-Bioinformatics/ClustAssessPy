@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 from pybind11.setup_helpers import Pybind11Extension, build_ext
 import os
 
-__version__ = "1.0"
+__version__ = "1.0.0"
 
 # Path to the C++ extension source files
 cpp_source_dir = "cpp_functions"
@@ -24,7 +24,7 @@ setup(
     name='ClustAssessPy',
     version=__version__,
     packages=find_packages(),
-    description='Python package for systematic assessment of clustering results stability.',
+    description='Python package for systematic assessment of clustering results stability on single-cell data.',
     long_description=open('README.md').read(),
     install_requires=[
         'numpy',
