@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 from pybind11.setup_helpers import Pybind11Extension, build_ext
 import os
 
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 
 # Path to the C++ extension source files
 cpp_source_dir = "cpp_functions"
@@ -16,7 +16,7 @@ ext_modules = [
             eigen_include_dir
         ],
         define_macros=[("VERSION_INFO", __version__)],
-        extra_compile_args=['-std=c++11'],
+        extra_compile_args=[],
     ),
 ]
 
