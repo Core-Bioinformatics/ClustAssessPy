@@ -7,7 +7,7 @@ from umap import UMAP
 import seaborn as sns
 import matplotlib.pyplot as plt
 import scipy as sp
-from scipy.sparse import csr_matrix
+from scipy.sparse import csr_matrix, coo_matrix
 import itertools
 from scipy.spatial import cKDTree
 from multiprocessing import Pool
