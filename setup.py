@@ -16,7 +16,8 @@ ext_modules = [
             eigen_include_dir
         ],
         define_macros=[("VERSION_INFO", __version__)],
-        extra_compile_args=[],
+        extra_compile_args=['-std=c++11'],
+        
     ),
 ]
 
